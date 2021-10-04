@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+
+task default: :load
+desc 'time now'
+task :load do
+  puts Time.now
+end
+task :load do
+  puts Time.now
+end
