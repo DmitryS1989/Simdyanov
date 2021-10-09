@@ -2,7 +2,7 @@
 
 k = ARGV[0]
 case k
-when /\A\d+\z/
+when /\A[+-]?\d+\z/
   puts 'Integer'
 when /\A[+-]?\d+?(\.\d+)?\Z/
   puts 'Float'
