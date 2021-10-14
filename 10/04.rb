@@ -5,6 +5,6 @@ now = DateTime.now
 k = 0
 while k < 7
   week_day = (now + k).to_s
-  p Date.parse week_day
+  p  week_day
   k += 1
 end
